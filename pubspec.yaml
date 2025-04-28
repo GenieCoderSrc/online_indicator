@@ -1,7 +1,7 @@
 name: online_indicator
 description: "A simple and customizable Flutter widget to display an online status indicator, perfect for chat apps or social profiles. Easily adjust size, colors, borders, and integrate seamlessly into your UI."
 
-version: 0.0.1
+version: 0.0.2
 homepage: https://github.com/GenieCoderSrc/online_indicator
 repository: https://github.com/GenieCoderSrc/online_indicator
 issue_tracker: https://github.com/GenieCoderSrc/online_indicator/issues

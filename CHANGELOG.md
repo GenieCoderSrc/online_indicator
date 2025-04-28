@@ -2,6 +2,10 @@
 
 All notable changes to this project will be documented in this file.
 
+## 0.0.2
+- Extension File.
+
+
 ## 0.0.1
 - Initial release of `online_indicator` package.
 - Added `OnlineIndicator` widget to easily show an online/offline status badge.
