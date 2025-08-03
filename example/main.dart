@@ -5,7 +5,6 @@ void main() {
   runApp(const MyApp());
 }
 
-
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
 
@@ -13,9 +12,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Online Indicator Example',
-      theme: ThemeData(
-        primarySwatch: Colors.blue,
-      ),
+      theme: ThemeData(primarySwatch: Colors.blue),
       home: const OnlineIndicatorDemo(),
     );
   }
@@ -27,9 +24,7 @@ class OnlineIndicatorDemo extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Online Indicator Demo'),
-      ),
+      appBar: AppBar(title: const Text('Online Indicator Demo')),
       body: Center(
         child: Stack(
           alignment: Alignment.center,
