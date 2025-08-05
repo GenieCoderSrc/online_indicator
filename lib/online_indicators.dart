@@ -26,22 +26,22 @@ class OnlineIndicator extends StatelessWidget {
     final double position = (radius / 100) * 15.0;
     return isOnline
         ? Positioned(
-          bottom: position,
-          right: position,
-          child: Container(
-            height: radius,
-            width: radius,
-            padding: const EdgeInsets.all(0.4),
-            decoration: BoxDecoration(
-              color: bgColor ?? Theme.of(context).primaryColor,
-              border: Border.all(
-                color: borderColor ?? Colors.transparent,
-                width: borderWide,
+            bottom: position,
+            right: position,
+            child: Container(
+              height: radius,
+              width: radius,
+              padding: const EdgeInsets.all(0.4),
+              decoration: BoxDecoration(
+                color: bgColor ?? Theme.of(context).primaryColor,
+                border: Border.all(
+                  color: borderColor ?? Colors.transparent,
+                  width: borderWide,
+                ),
+                borderRadius: BorderRadius.circular(15.0),
               ),
-              borderRadius: BorderRadius.circular(15.0),
             ),
-          ),
-        )
+          )
         : Container();
   }
 }
