@@ -14,7 +14,7 @@ Add `online_indicator` to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  online_indicator: ^0.0.1
+  online_indicator: latest_version
 ```
 
 Then import it:
