@@ -13,6 +13,8 @@ A simple Flutter widget to display an online status indicator, ideal for user pr
 Add `online_indicator` to your `pubspec.yaml`:
 
 ```yaml
+resolution: workspace
+
 dependencies:
   online_indicator: latest_version
 ```
